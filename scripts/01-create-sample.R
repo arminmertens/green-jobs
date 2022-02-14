@@ -24,7 +24,7 @@ create_sample <- function(data, ratio) {
     # select only relevant features
     select(posting_id, date, via_intermediary, job_title, organization_name,
            full_text, profession.label, profession_group.label,
-           profession_class.label, location_name)
+           profession_class.label,organization_activity.label, location_name)
   return(jobs_sample)
 }
 

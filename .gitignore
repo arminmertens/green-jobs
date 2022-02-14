@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 
 data/green-jobs.rds
+data/green_skills_extr.rds
